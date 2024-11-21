@@ -1,0 +1,44 @@
+.footerSection{
+    background-color: black;
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.footerOptions h6{
+    margin-top: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.footerOptions h6 a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.smallLine{
+    width: 80px;
+    background-color: yellow;
+    height: 2px;
+    margin-bottom: 30px;
+}
+.socialIcon{
+    font-size: 40px;
+    display: flex;
+}
+.socialIcon div{
+    margin-left: 10px !important;
+    cursor: pointer;
+}
+.socialIcon div:hover{
+    font-size: 45px;
+}
+.footerOptions h6:hover{
+    text-decoration:underline;
+}
+.footerInputField{
+    color: #fff !important;
+    height: 60px;
+}
+@media(max-width:500px){
+    .portionFoot{
+        margin-top: 50px;
+    }
+}

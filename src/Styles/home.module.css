@@ -1,0 +1,225 @@
+.homeSection{
+    background-image: url("../Assets/kshop-homepage-photo.jpg");
+    width: 100%;
+    height: 562px;
+    margin-top: 120px;
+}
+.bannerContent{
+    padding-top: 200px;
+}
+.bannerContent h1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.totalItems{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.cardImage{
+    padding: 20px;
+    height: 200px;
+    width: auto !important;
+    margin: 0 auto;
+}
+.cardbox{
+    height: 420px;
+    margin-top: 25px;
+    text-align: center;
+}
+.cardButtons{
+    text-align: center;
+    margin-top: 15px;
+}
+.cardButtons button{
+    margin: 8px;
+}
+.topHeading{
+    text-align: center;
+    margin-top: 50px;
+    font-family:'Times New Roman', Times, serif !important;
+    font-weight: 600;
+    font-size: 40px;
+    
+}
+.topMargin{
+    margin-top: 136px;
+}
+.line{
+    width: 200px;
+    margin: 0 auto;
+    height: 2px;
+    background-color: black;
+}
+.loadMoreCard{
+    background-color: rgb(231, 231, 231);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 80px;
+    border: 1px solid;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 130px;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family:'Times New Roman', Times, serif !important;
+}
+.loadMoreCard:hover{
+    background-color: rgb(49, 49, 49);
+    font-weight: 900;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.extraBigBox{
+    background-image: url("../Assets/extra.jpg");
+    width: 90%;
+    margin: 0 auto;
+    height: 600px;
+    background-size: cover;
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+.extraContent{
+    padding-top: 140px;
+    margin-left: 600px;
+}
+.extraContent h5{
+    font-size: 40px;
+    font-weight: 900;
+}
+.extraContent p{
+    font-size: 30px;
+}
+.extraContent a{
+    border-radius: 0px ;
+    padding-bottom: 20px !important ;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-family:cursive;
+    font-weight: 700;
+}
+.extraContent a:hover{
+    border-radius: 10px;
+}
+.thirdBannerOneBg{
+    background-image: url("../Assets/womenTwo.jpg") ;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 800px;
+    background-size: 100% 100%;
+    /* position: relative; */
+}
+.thirdBannerOneBgContent{
+    padding-left: 600px;
+    position: absolute;
+    margin-top: 140px;
+    color: rgb(70, 70, 70);
+}
+.thirdBannerOneBgContent h5{
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.thirdBannerOneBgContent p{
+    padding-right: 80px;
+    line-height: 30px;
+}
+.thirdBannerOneBgContent button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #fff;
+    border: 0px;
+    border-radius: 40px;
+}
+.thirdBannerSecondBg{
+    background-image: url("../Assets/menOne.jpg");
+    background-repeat: no-repeat;
+    height: 630px;
+    width: 100%;
+    /* border: 20px solid white; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background-size: 100% 100%; */
+}
+.thirdBnanerContent{
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.thirdBnanerContent h5{
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.thirdBnanerContent p{
+    padding-right: 80px;
+    line-height: 30px;
+}
+.thirdBnanerContent button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #fff;
+    border: 0px;
+    border-radius: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.homeBox{
+    background-color: black;
+    color: #fff;
+    height: 300px;
+    text-align: center;
+    width: 30%;
+    border-radius: 20px;
+}
+.homeBox p{
+    padding: 20px;
+}
+.homeBox h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.boxIcon{
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.homeBoxes{
+    display: flex;
+    justify-content: space-evenly !important;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+@media(max-width:500px){
+    .extraBigBox{
+        display: none;
+    }
+    .homeBoxes{
+        flex-direction: column;
+    }
+    .homeBox{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .boyGirl{
+        display: none;
+    }
+    .homeSection{
+        width: 100%;
+        height: auto;
+        background-position: center;
+        background-size: cover;
+    }
+    .bannerContent{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .bannerContent h1{
+       font-size: 10px;
+    }
+}
